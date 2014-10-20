@@ -9,3 +9,11 @@ p { word-spacing: 4mm; }
 a { font-size: 12pt }
 /* Los elementos <span> deben tener un tamaño de letra de 1 pica */
 span { font-size: 1pc }
+
+#prova {
+	width: 50%;
+	height:200px;
+	background:url(../img/ccc.gif) no-repeat;
+	border: solid 1px black;
+}
+
