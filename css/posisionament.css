@@ -1,0 +1,15 @@
+#normal{
+width: 50%;
+text-align: center;
+}
+#relatiu p{
+	background: green;
+	width: 50%;
+	border:  1px solid;
+}
+#relatiu .mou{
+	position:relative;
+	background: cyan;
+	top:10px;
+	left:10px;
+}
