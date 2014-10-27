@@ -6,6 +6,8 @@
 
 body{
 background:#D3D3D3;
+font-family: Arial;
+font-size:25px;
 }
 h1{
 	text-align: center;
@@ -20,6 +22,7 @@ position: absolute;
 left: 10%;
 top: 9%;
 width:80%;
+height: 8%;
 }
 
 #c2{
@@ -31,6 +34,7 @@ left: 31%;
 top: 42%;
 width: 35%;
 height: 28%;
+z-index:2;
 }
 #c3{
 background:#ffffb3;
@@ -56,9 +60,22 @@ height: 28%;
 background:#ffe5ff;
 border: #baa7ba 2px solid;
 text-align: left;
+position: absolute;
+left: 5%;
+top: 63%;
+width: 35%;
+height: 28%;
 }
 #c6{
 background:#ffb4b4;
 border: #865f5f 2px solid;
 text-align: right;
+position: absolute;
+bottom: 8%;
+right: 5%;
+width: 35%;
+height: 28%;
+}
+.zindex:hover{
+z-index:3;
 }
