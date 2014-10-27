@@ -1,0 +1,36 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.princ{
+width:50%;
+height:200px;
+}
+.left{
+width:10%;
+height:10%;
+background:cyan;
+border:1px solid black;
+float:left;
+}
+
+.menu{
+background:pink;
+width:90px;
+float:left;
+}
+
+.clear{
+	clear:left;
+}
+
+#cinc{
+visibility:hidden;
+}
+#dos{
+display:none;
+}
+.left:hover{
+background:pink;
+}
