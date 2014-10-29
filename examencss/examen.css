@@ -1,8 +1,24 @@
 #header img {
-width: 10%;
+width: 50px;
+}
+
+#header h1{
+position:absolute;
+top:-1%;
+right: 61%;
 }
 
 body{
 background-image: url("baixa.jpg");
 background-repeat: inherit;
+}
+
+#nav{
+border:solid 1px black;
+	
+}
+span{
+position:absolute;
+top:15%;
+right: 25%;
 }
