@@ -4,8 +4,8 @@ width: 50px;
 
 #header h1{
 position:absolute;
-top:-1%;
-right: 61%;
+top:-10px;
+right: 740px;
 }
 
 body{
@@ -30,8 +30,8 @@ list-style:none;
 }
 span{
 position:absolute;
-top:30%;
-right: 15%;
+top:266px;
+right: 14%;
 background: green;
 width:550px;
 height:40px;
@@ -42,12 +42,12 @@ font-weight:bold ;
 }
 #imggorila img{
 position:absolute;
-top:12%;
-right: 61%;
+top:115px;
+right: 60%;
 }
 
 #video{
 position:absolute;
-top:54%;
+top:486px;
 right: 25%;
 }
