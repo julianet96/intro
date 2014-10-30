@@ -9,8 +9,8 @@ right: 61%;
 }
 
 body{
-background-image: url("baixa.jpg");
-background-repeat: inherit;
+background-image: url("body.gif");
+
 }
 
 #nav{
@@ -19,6 +19,6 @@ border:solid 1px black;
 }
 span{
 position:absolute;
-top:15%;
-right: 25%;
+top:35%;
+right: 48%;
 }
