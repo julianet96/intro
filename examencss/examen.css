@@ -14,20 +14,23 @@ background-image: url("body.gif");
 }
  ul{
 border:solid 1px black;
-height:24px;
+height:40px;
 color:white;
 background: black;	
 font-weight:bold ;
+vertical-align:middle;
 }
+
 
 li{
 float:left;
 width:90px;
+list-style:none;
 
 }
 span{
 position:absolute;
-top:35%;
+top:30%;
 right: 15%;
 background: green;
 width:550px;
@@ -45,6 +48,6 @@ right: 61%;
 
 #video{
 position:absolute;
-top:57%;
+top:54%;
 right: 25%;
 }
