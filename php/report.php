@@ -19,12 +19,17 @@
     $email = $_POST['email'];
     $primer_nom=$_POST['firstname'];
     $segon_nom=$_POST['lastname'];
+    $name=$_POST['firstname'].' '.$_POST['lastname'];
     $numero_aliens=$_POST['howmany'];
     $que_feren=$_POST['whattheydid'];
     $altre=$_POST['other'];
     
-    $msg = $primer_nom $segon_nom.' was abducted '.$when_it_happened.' and was gone for '.$how_long.' . '.' number of aliens '.$numero_aliens.' alien despcription '. .' what they did '. .' fang spotted: '. .'other comments '. .
+    $msg = $name .' was abducted '. $when_it_happened .' and was gone for '. 
+    $how_long .' . '.' number of aliens '. $numero_aliens .' alien despcription '. 
+    $alien_description .' what they did '. $que_feren .' fang spotted: '. 
+    $fang_spotted .'other comments '. $altre ;
     ?>
+    <h1>msg:<?php echo $msg;?></h1>
    <h1>'Thanks for submitting the form.'</h1>
    <p> You were abducted <?php echo $when_it_happened;?> and were gone for <?php echo $how_long;?> </p>
     <p>Describe them: <?php echo $alien_description;?></p>
