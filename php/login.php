@@ -26,6 +26,13 @@
 			echo "<h1>Benbingut senyor ".$row['nombre']." , ".$row['apellido']." , ".$row['sec_apellido']."<br/></h1>";
 		}else{
 			echo "LOGIN INCORRECTE<br>";
+				if ($user==$row['usuari']){
+					echo "<script>alert('password equivocat');</script>";
+					header('Location: login.html');
+				}else{
+					echo "l'usuari no existeix el vols crear?<br/>";
+					echo " si el vols crear entra <a href='formulari.html'>aqui</a> ";
+				}
 			}
 		
 		
